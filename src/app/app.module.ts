@@ -9,6 +9,7 @@ import { UserViewComponent } from './user-view/user-view.component';
 import { UserCreateComponent } from './user-create/user-create.component';
 import { FormsModule }   from '@angular/forms';
 import { UserEditComponent } from './user-edit/user-edit.component';
+import { ArticlesComponent } from './articles/articles.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UserEditComponent } from './user-edit/user-edit.component';
     UsersComponent,
     UserViewComponent,
     UserCreateComponent,
-    UserEditComponent
+    UserEditComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,
