@@ -13,10 +13,10 @@ import { Article } from '../article';
 })
 export class ArticlesComponent implements OnInit {
 
-  // 3. Create a users property of type user
+  // 3. Create a articless property of type user
   articles: Article[];
 
-  // 4. Inject the UsersService into the constructor
+  // 4. Inject the ArticlesService into the constructor
   constructor(private ArticlesService: ArticlesService) { }
 
   // 6. Make a call to the service on initialization
